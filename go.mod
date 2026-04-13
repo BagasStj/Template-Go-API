@@ -1,4 +1,4 @@
-module template-go-api
+module golfscoreid-jng
 
 go 1.23.0
 

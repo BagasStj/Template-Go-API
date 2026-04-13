@@ -1,7 +1,7 @@
 package config
 
 import (
-	"template-go-api/logger"
+	"golfscoreid-jng/logger"
 
 	"github.com/codingconcepts/env"
 	"github.com/joho/godotenv"

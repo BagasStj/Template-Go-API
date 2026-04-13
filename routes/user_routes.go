@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"template-go-api/controllers"
-	"template-go-api/services"
+	"golfscoreid-jng/controllers"
+	"golfscoreid-jng/services"
 )
 
 // initUser initializes user routes

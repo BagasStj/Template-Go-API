@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"template-go-api/logger"
+	"golfscoreid-jng/logger"
 
 	"gorm.io/gorm"
 )

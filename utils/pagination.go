@@ -2,7 +2,7 @@ package utils
 
 import (
 	"math"
-	"template-go-api/models"
+	"golfscoreid-jng/models"
 )
 
 // CalculatePagination calculates pagination metadata

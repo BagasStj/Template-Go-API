@@ -2,10 +2,10 @@ package main
 
 import (
 	"strings"
-	"template-go-api/config"
-	"template-go-api/database"
-	"template-go-api/logger"
-	"template-go-api/routes"
+	"golfscoreid-jng/config"
+	"golfscoreid-jng/database"
+	"golfscoreid-jng/logger"
+	"golfscoreid-jng/routes"
 	"time"
 
 	"github.com/gin-contrib/cors"

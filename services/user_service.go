@@ -1,10 +1,10 @@
 package services
 
 import (
-	"template-go-api/domains"
-	"template-go-api/logger"
-	"template-go-api/models"
-	"template-go-api/repositories"
+	"golfscoreid-jng/domains"
+	"golfscoreid-jng/logger"
+	"golfscoreid-jng/models"
+	"golfscoreid-jng/repositories"
 )
 
 // UserService interface defines user service methods

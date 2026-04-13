@@ -1,6 +1,6 @@
 package models
 
-import "template-go-api/domains"
+import "golfscoreid-jng/domains"
 
 // APIResponse represents a generic API response
 type APIResponse struct {

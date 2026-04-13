@@ -3,12 +3,12 @@ package controllers
 import (
 	"math"
 	"net/http"
-	"template-go-api/config"
-	"template-go-api/domains"
-	"template-go-api/logger"
-	"template-go-api/models"
-	"template-go-api/models/errors"
-	"template-go-api/services"
+	"golfscoreid-jng/config"
+	"golfscoreid-jng/domains"
+	"golfscoreid-jng/logger"
+	"golfscoreid-jng/models"
+	"golfscoreid-jng/models/errors"
+	"golfscoreid-jng/services"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

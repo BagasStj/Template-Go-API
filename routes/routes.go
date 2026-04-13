@@ -1,10 +1,10 @@
 package routes
 
 import (
-	"template-go-api/config"
-	"template-go-api/database"
-	"template-go-api/logger"
-	"template-go-api/repositories"
+	"golfscoreid-jng/config"
+	"golfscoreid-jng/database"
+	"golfscoreid-jng/logger"
+	"golfscoreid-jng/repositories"
 
 	"github.com/gin-gonic/gin"
 )
@@ -38,8 +38,9 @@ func Init(r *gin.Engine, cfg config.Config, logger logger.Logger) {
 	v1 := newV1Route(cfg, logger, r)
 	v1.initRoot()
 	v1.initUser()
-	// Add more route initializations here
-	// v1.initAuth()
+	v1.initPlayer()
+	v1.initHole()
+	v1.initScore()
 }
 
 func (rt *route) initRoot() {
